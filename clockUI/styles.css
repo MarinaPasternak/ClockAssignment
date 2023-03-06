@@ -51,12 +51,12 @@ body {
     position: absolute;
     bottom: 50%;
     left: 50%;
-    transform-origin: buttom;
-    transform: translateX(-50%) rotate(var(--rotation));
+    transform-origin: bottom;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
     z-index: 10;
 }
 
-.clock .hand.second-hand {
+.clock .hand.seconds-hand {
     width: 1px;
     height: 45%;
     background-color: rgb(41, 17, 182);
