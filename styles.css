@@ -18,6 +18,15 @@ body {
     margin: 10px 0px;
 }
 
-.converter-container .input-group input {
-    width: 200px;
+.error-message-container {
+    color: red;
+    font-weight: 600;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }
